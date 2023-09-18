@@ -1,0 +1,15 @@
+{
+    "name": "hikamabq/hicome",
+    "description": "simple framework",
+    "type": "library",
+    "require": {
+        "illuminate/database": "^10.23"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hikam Abqory"
+        }
+    ],
+    "minimum-stability": "stable"
+}
