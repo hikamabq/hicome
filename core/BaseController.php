@@ -16,7 +16,7 @@ class BaseController
     }
     public function redirect($params)
     {
-        header("Location: " . base_url."/public/".$params);    
+        header("Location: " .url.$params);    
     }
     public function loadView($params){
         require_once '../app/views/'.$params.'.php';
