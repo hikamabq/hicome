@@ -3,7 +3,8 @@
     "description": "simple framework",
     "type": "library",
     "require": {
-        "illuminate/database": "^10.23"
+        "illuminate/database": "^10.24",
+        "illuminate/pagination": "^10.24"
     },
     "license": "MIT",
     "authors": [
