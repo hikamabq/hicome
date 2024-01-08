@@ -18,8 +18,8 @@ class BaseController
     {
         header("Location: " .url.$params);    
     }
-    public function loadView($params){
-        require_once '../app/views/'.$params.'.php';
+    public function layout($params){
+        require_once '../app/views/layouts/'.$params.'.php';
     }
     
 }
